@@ -43,6 +43,7 @@ import type { View } from './types/View'
 export default [
     { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'qc.jpg', },
     { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'trabs_1.jpg', },
+    { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], expires: '2026-01-18 16:00', image: 'pebbles_2026.png', },
     { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [1, 4, 0, 5, 6], image: 'jtl_1.jpg', },
     { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'aufruf_kneipenabend.jpg', },
     { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'wlan.jpg', },
@@ -54,7 +55,7 @@ export default [
     { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [3, 6, 5], image: 'jtl_3.jpg', },
     { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'wlan.jpg', },
     { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'puppy_1.jpg', },
+    { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'wmd.jpg', },
     // { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'FF_Jahresprogramm.png', },
-    { display: ['oe_fenster', 'oe_clubraum', 'trabs'], days: [0, 1, 2, 3, 4, 5, 6], image: 'wmd.png', },
     { display: ['test'], days: [0, 1, 2, 3, 4, 5, 6], image: 'wlan.jpg', },
 ] as View[]
