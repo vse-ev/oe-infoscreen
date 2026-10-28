@@ -75,28 +75,28 @@
 </script>
 
 <style lang="sass" scoped>
-    .layout-enter-active,
-    .layout-leave-active
-        transition: all 500ms
+.layout-enter-active,
+.layout-leave-active
+    transition: all 500ms
 
-    .layout-enter-from
-        opacity: 0
-        transform: translateY(4rem)
+.layout-enter-from
+    opacity: 0
+    transform: translateY(4rem)
 
-    .layout-leave-to
-        opacity: 0
-        transform: translateY(-4rem)
+.layout-leave-to
+    opacity: 0
+    transform: translateY(-4rem)
 
-    .wrapper
-        position: fixed
+.wrapper
+    position: fixed
+    width: 100%
+    height: 100%
+    overflow: hidden
+    cursor: none
+
+    .view
+        position: absolute
         width: 100%
         height: 100%
-        overflow: hidden
-        cursor: none
-
-        .view
-            position: absolute
-            width: 100%
-            height: 100%
-            object-fit: contain
+        object-fit: contain
 </style>
